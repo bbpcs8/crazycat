@@ -18076,14 +18076,15 @@ __extends = this.__extends || function(c, e) {
             this.share_btn.addEventListener(egret.TouchEvent.TOUCH_TAP,
                 this.doShare, this);
             this.replay_btn = this.createBitmapByName("replay_btn");
-            this.replay_btn.x = 220;
+            //this.replay_btn.x = 220;
+			this.replay_btn.x = 120;
             this.replay_btn.y = a.height + 20;
             this.replay_btn.touchEnabled = !0;
             this.replay_btn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.doRepaly, this);
             this.addChild(a);
             this.addChild(this.tap_textfeild);
             this.addChild(this.rank_textfeild);
-            this.addChild(this.share_btn);
+            //this.addChild(this.share_btn);
             this.addChild(this.replay_btn)
         }
         __extends(a, c);
@@ -18341,7 +18342,8 @@ __extends = this.__extends || function(c, e) {
             this.share_btn.touchEnabled = !0;
             this.share_btn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.doShare, this);
             this.replay_btn = this.createBitmapByName("replay_btn");
-            this.replay_btn.x = 220;
+            //this.replay_btn.x = 220;
+			this.replay_btn.x = 120;
             this.replay_btn.y = a.height + 20;
             this.replay_btn.touchEnabled = !0;
             this.replay_btn.addEventListener(egret.TouchEvent.TOUCH_TAP, this.doRepaly, this);
@@ -18350,7 +18352,7 @@ __extends = this.__extends || function(c, e) {
             this.addChild(this.rank_textfeild);
             this.addChild(this.beat_textfeild);
             this.addChild(this.title_textfeild);
-            this.addChild(this.share_btn);
+            //this.addChild(this.share_btn);
             this.addChild(this.replay_btn)
         }
         __extends(a, c);
